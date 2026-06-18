@@ -1,0 +1,20 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac OS folder settings
+.DS_Store
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# App-specific ignore
+temp_web_uploads/
+
+# Model Files (MENCEGAH UPLOAD FILE BESAR >100MB)
+models/colorization_release_v2.caffemodel
+models/colorization_deploy_v2.prototxt
+models/pts_in_hull.npy
