@@ -43,19 +43,36 @@ colorization_uas/
 
 ## 💻 Cara Menjalankan
 
+Langkah-langkah di bawah ini sedikit berbeda tergantung sistem operasi komputer yang Anda gunakan (Mac atau Windows).
+
 ### Langkah 1 — Install library
+**🍎 Untuk macOS / Linux:**
 ```bash
+pip3 install -r requirements.txt
+```
+**🪟 Untuk Windows:**
+```cmd
 pip install -r requirements.txt
 ```
 
 ### Langkah 2 — Download model AI (hanya sekali, ~125 MB)
+**🍎 Untuk macOS / Linux:**
 ```bash
 python3 download_model.py
 ```
+**🪟 Untuk Windows:**
+```cmd
+python download_model.py
+```
 
 ### Langkah 3 — Jalankan Web GUI
+**🍎 Untuk macOS / Linux:**
 ```bash
 python3 main.py
+```
+**🪟 Untuk Windows:**
+```cmd
+python main.py
 ```
 Aplikasi akan secara otomatis membuka Web GUI (Flask) di browser pada alamat:
 `http://localhost:5050`

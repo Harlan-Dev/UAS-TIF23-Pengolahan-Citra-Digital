@@ -27,18 +27,15 @@ MODEL_DIR = 'models'
 
 FILES = {
     'colorization_deploy_v2.prototxt': (
-        'https://raw.githubusercontent.com/richzhang/colorization/'
-        'master/colorization/models/colorization_deploy_v2.prototxt',
+        'https://storage.openvinotoolkit.org/repositories/datumaro/models/colorization/colorization_deploy_v2.prototxt',
         '10 KB'
     ),
     'pts_in_hull.npy': (
-        'https://raw.githubusercontent.com/richzhang/colorization/'
-        'master/colorization/resources/pts_in_hull.npy',
+        'https://storage.openvinotoolkit.org/repositories/datumaro/models/colorization/pts_in_hull.npy',
         '5 KB'
     ),
     'colorization_release_v2.caffemodel': (
-        'http://eecs.berkeley.edu/~rich.zhang/projects/2016_colorization/'
-        'files/demo_v2/colorization_release_v2.caffemodel',
+        'https://storage.openvinotoolkit.org/repositories/datumaro/models/colorization/colorization_release_v2.caffemodel',
         '~125 MB'
     ),
 }
